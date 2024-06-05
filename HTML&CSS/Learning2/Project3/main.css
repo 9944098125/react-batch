@@ -1,0 +1,21 @@
+.blocks {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.black-container {
+	background-color: black;
+}
+.red-container {
+	background-color: red;
+}
+.green-container {
+	background-color: green;
+}
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

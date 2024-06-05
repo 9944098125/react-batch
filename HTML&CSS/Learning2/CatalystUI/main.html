@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Catalyst Design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		<link rel="icon" href="./logo.png" />
+		<script src="https://kit.fontawesome.com/a87367b057.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav-row">
+				<div class="row">
+					<img src="./logo.png" alt="" class="logo" />
+					<h6 class="brand-name">Catalyst</h6>
+				</div>
+			</nav>
+			<div class="outlet">
+				<div class="first-block">
+					<div class="first-block-children">
+						<button class="primary-button btn">Button</button>
+						<button class="secondary-button btn">Button</button>
+					</div>
+					<div class="first-block-children">
+						<button class="primary-button btn">Open Modal</button>
+					</div>
+					<div class="first-block-children">
+						<div>
+							<p class="country">Country</p>
+							<select value="canada" name="country" class="options">
+								<option value="canada">🍁 Canada</option>
+								<option value="america">🌎 USA</option>
+								<option value="india">🌎 India</option>
+							</select>
+							<p class="desc">We serve only western countries</p>
+						</div>
+					</div>
+				</div>
+				<div class="second-block">
+					<div class="form-container">
+						<h6 class="sign-in-head">SIGN IN</h6>
+						<div class="form-group">
+							<label for="">Username</label>
+							<input
+								type="text"
+								class="form-control"
+								value=""
+								name="username" />
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input
+								type="text"
+								class="form-control"
+								value=""
+								name="password"
+								id="password" />
+						</div>
+						<div class="rem-link-container">
+							<div class="rem-container">
+							<label class="slider-container">
+								<input id="checkbox" type="checkbox" checked />
+								<span class="slider"></span>
+							</label>
+							  <label for="checkbox" class="rem">Remember Me</labe>
+							</div>
+							<div class="forgot-password-container">
+								<span class="forgot">Forgot Password ?</span>
+							</div>
+						</div>
+						<button class="login-button">
+							Sign IN
+						</button>
+						<div class="">
+							<span class="text">Don't you have an account ? <span class="bold-text">Sign Up</span></span>
+						</div>
+					</div>
+					<div class="records-container">
+						<h5 class="orders-head">Recent orders</h5>
+						<table class="table">
+							<tr style="box-shadow: 0 1px 0px #888;" class="table-head-row">
+								<th class="table-head">Purchase Date</th>
+								<th class="table-head">Customer</th>
+								<th class="table-head">Amount</th>
+								<th class="table-head"></th>
+								<th class="table-head"></th>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="third-block">
+					<div class="records">
+						<h5 class="orders-head">Recent orders</h5>
+						<table class="table">
+							<tr style="box-shadow: 0 1px 0px #888;" class="table-head-row">
+								<th class="table-head">Purchase Date</th>
+								<th class="table-head">Customer</th>
+								<th class="table-head">Amount</th>
+								<th class="table-head"></th>
+								<th class="table-head"></th>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+							<tr style="box-shadow: 0 0.2px 0px #888;" class="table-row">
+								<td class="table-data">Mar 6, 2023</td>
+								<td class="table-data">
+									<div class="table-data-row">
+										<img src="https://www.shutterstock.com/image-photo/smiling-bearded-man-holding-laptop-260nw-2127373250.jpg" alt="" style="height: 20px; width: 20px; border-radius: 50%" />
+										<p class="customer-name">Leone dee</p>
+									</div>
+								</td>
+								<td class="table-data">
+									CA$5234234
+								</td>
+								<td id="success-flag" class="" style="color: #bef264; background-color: #a3e6351a; padding: 3px 6px; border-radius: 4px; font-weight: 700;">success</td>
+								<td id="icon" class="table-data"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+							</tr>
+						</table>
+					</div>
+					<div class="form">
+						<h6 class="sign-in-head">SIGN IN</h6>
+						<div class="form-group">
+							<label for="">Username</label>
+							<input
+								type="text"
+								class="form-control"
+								value=""
+								name="username" />
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input
+								type="text"
+								class="form-control"
+								value=""
+								name="password"
+								id="password" />
+						</div>
+						<div class="rem-link-container">
+							<div class="rem-container">
+							<label class="slider-container">
+								<input id="checkbox" type="checkbox" checked />
+								<span class="slider"></span>
+							</label>
+							  <label for="checkbox" class="rem">Remember Me</labe>
+							</div>
+							<div class="forgot-password-container">
+								<span class="forgot">Forgot Password ?</span>
+							</div>
+						</div>
+						<button class="login-button">
+							Sign IN
+						</button>
+						<div class="hold-account-container">
+							<span class="text">Don't you have an account ? <span class="bold-text">Sign Up</span></span>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

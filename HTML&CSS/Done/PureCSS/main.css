@@ -1,0 +1,42 @@
+body {
+	margin: 0 0;
+	padding: 0 0;
+}
+.total-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+	background-color: red;
+}
+.header-container {
+	background-image: url("./foundations.jpg");
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.head {
+	font-size: 55px;
+	color: white;
+}
+.wrapped-container img {
+	height: 300px;
+	width: 300px;
+	border: 4px solid rgb(255, 0, 51);
+}
+.wrapped-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	width: 70%;
+}
+#total-container {
+	background-color: black;
+}
+section {
+	background-color: blue;
+}

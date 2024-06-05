@@ -1,0 +1,44 @@
+.header-image {
+	height: 100%;
+	width: 50%;
+}
+.small-heads {
+	text-decoration: underline;
+}
+@media screen and (max-width: 425px) {
+	.head {
+		font-size: 22px;
+	}
+	.para {
+		font-size: 12px;
+	}
+	.types-of-yoga-images {
+		height: 40%;
+		width: 100%;
+	}
+	.small-heads {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 10px !important;
+	}
+}
+
+@media screen and (min-width: 425px) {
+	.types-of-yoga-images {
+		height: 300px !important;
+		width: 300px !important;
+	}
+	.small-heads {
+		font-size: 29px;
+	}
+	h4 {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	h4 {
+		font-size: 28px !important;
+	}
+}

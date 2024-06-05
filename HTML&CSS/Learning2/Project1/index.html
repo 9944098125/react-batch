@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Project 1</title>
+		<link
+			rel="icon"
+			href="https://cdn.dribbble.com/users/3499911/screenshots/17305962/media/0e578c4244b262360fed3f68bf0195b2.jpg?resize=400x300&vertical=center" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		<script src="main.js"></script>
+		<style>
+			.input-container {
+				display: flex;
+				align-items: center;
+				gap: 15px;
+			}
+			#button {
+				background-color: red;
+				color: white;
+				padding: 5px 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="head">Different Types of Inputs</h1>
+		<div class="input-container">
+			<input
+				type="text"
+				value="ReactJS"
+				class="input-field"
+				id="input1"
+				name="technology" />
+		</div>
+		<div class="input-container">
+			<input
+				type="password"
+				value="password"
+				class="input-field"
+				id="input2"
+				name="password" />
+		</div>
+		<div class="input-container">
+			<input
+				type="checkbox"
+				value="true"
+				class="checkbox-input"
+				id="input3"
+				name="checkbox" />
+		</div>
+		<div class="input-container">
+			<input
+				type="radio"
+				value="react"
+				name="technology"
+				class="input-field"
+				id="React" />
+			<label for="React">
+				<h4 class="tech-name">ReactJS</h4>
+			</label>
+			<label for="Node">
+				<input
+					type="radio"
+					value="node"
+					class="input-field"
+					id="Node"
+					name="technology" />
+				<h4 class="tech-name">NodeJS</h4>
+			</label>
+		</div>
+		<div class="input-container">
+			<input type="button" value="Button" id="button" />
+		</div>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+.head {
+	color: red;
+}
+.small-text {
+	color: red;
+	font-size: 55px;
+	font-weight: 800;
+}
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 15px;
+}
+.btn {
+	padding: 25px;
+	border: 4px solid black;
+	border-radius: 9px;
+	color: white;
+}
+.btn-success {
+	border: none !important;
+	background-color: green;
+}
+.btn-danger {
+	background-color: red;
+}
