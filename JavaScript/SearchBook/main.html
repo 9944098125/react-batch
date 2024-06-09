@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link
+			rel="icon"
+			href="https://static.vecteezy.com/system/resources/thumbnails/008/845/913/small/online-courses-with-students-sitting-on-books-pile-with-laptops-notebooks-png.png" />
+		<title>Search Book</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+	</head>
+	<body>
+		<div class="bg-black w-full min-h-[100vh] flex flex-col items-center">
+			<div id="search-form" class="p-5 w-full">
+				<input
+					id="search"
+					type="text"
+					oninput="searchBooks()"
+					placeholder="Search by title"
+					class="w-full ouline-none text-white font-bold text-xl bg-black rounded-lg h-[45px] active:h-[55px] focus:h-[55px]" />
+			</div>
+			<ul
+				class="flex flex-wrap justify-center items-center p-5"
+				id="booksList"></ul>
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>
