@@ -162,7 +162,7 @@ function displayBooks(list) {
 		bookContainer.style.display = "flex";
 		bookContainer.style.flexDirection = "column";
 		bookContainer.style.alignItems = "center";
-		bookContainer.style.margin = "15px";
+		bookContainer.classList.add("m-3");
 
 		title.style.fontWeight = "700";
 		title.style.fontSize = "20px";
