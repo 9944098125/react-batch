@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Page Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous" />
+	</head>
+	<body>
+		<div
+			style="min-height: 100vh"
+			class="container-fluid bg-black d-flex align-items-center justify-content-center">
+			<form class="form-section p-2 w-50" id="form">
+				<div class="d-flex flex-column form-group mb-3 px-4">
+					<label class="text-white fw-bold" for="name"> Name </label>
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Enter your Name..."
+						style="height: 45px; border: none; outline: none"
+						class="rounded w-full" />
+				</div>
+				<div class="form-group px-4 mb-3">
+					<p class="text-white fw-bold">Hobbies</p>
+					<div class="d-flex align-items-center gap-5">
+						<label class="d-flex align-items-center gap-3" for="music">
+							<input value="music" id="music" type="checkbox" name="hobbies" />
+							<p class="text-white fw-bold m-0">Music</p>
+						</label>
+						<label class="d-flex align-items-center gap-3" for="sports">
+							<input
+								value="sports"
+								id="sports"
+								type="checkbox"
+								name="hobbies" />
+							<p class="text-white fw-bold m-0">Sports</p>
+						</label>
+						<label class="d-flex align-items-center gap-3" for="reading">
+							<input
+								value="reading"
+								id="reading"
+								type="checkbox"
+								name="hobbies" />
+							<p class="text-white fw-bold m-0">Reading</p>
+						</label>
+						<label class="d-flex align-items-center gap-3" for="travel">
+							<input
+								value="travel"
+								id="travel"
+								type="checkbox"
+								name="hobbies" />
+							<p class="text-white fw-bold m-0">Travel</p>
+						</label>
+					</div>
+				</div>
+				<div class="form-group px-4 mb-3">
+					<select
+						name="age"
+						class="w-100"
+						style="height: 45px; border: none; outline: none"
+						id="selectedAge">
+						<option value="">Select a Category</option>
+						<option value="25-35">25 - 35</option>
+						<option value="35-45">35 - 45</option>
+						<option value="45-55">45 - 55</option>
+					</select>
+				</div>
+				<div class="form-group px-4 mb-3">
+					<p class="text-white fw-bold">Gender</p>
+					<div class="d-flex align-items-center gap-5">
+						<label class="d-flex align-items-center gap-3" for="male">
+							<input value="male" id="male" type="radio" name="gender" />
+							<p class="text-white fw-bold m-0">Male</p>
+						</label>
+						<label class="d-flex align-items-center gap-3" for="female">
+							<input value="female" id="female" type="radio" name="gender" />
+							<p class="text-white fw-bold m-0">Female</p>
+						</label>
+						<label class="d-flex align-items-center gap-3" for="no">
+							<input value="no" id="no" type="radio" name="gender" />
+							<p class="text-white fw-bold m-0">Prefer Not to tell</p>
+						</label>
+					</div>
+				</div>
+				<div class="px-4">
+					<button class="btn btn-success w-100">Submit</button>
+				</div>
+			</form>
+			<div id="answers" class="p-5">
+				<p id="name-answer"></p>
+				<p id="hobbies-answer"></p>
+				<p id="age-answer"></p>
+				<p id="gender"></p>
+			</div>
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>
