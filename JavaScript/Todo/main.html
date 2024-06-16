@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link
+			rel="icon"
+			href="https://res.cdn.office.net/todo/1893689_2.120.1/icons/logo.png" />
+		<title>TODO APP</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	</head>
+	<body>
+		<nav>
+			<img
+				src="https://res.cdn.office.net/todo/1893689_2.120.1/icons/logo.png"
+				height="30px"
+				width="30px"
+				style="background-color: white; padding: 15px; border-radius: 50%" />
+			<h3 class="brand-name">TODO</h3>
+		</nav>
+		<div class="body">
+			<form id="createForm">
+				<input type="text" name="todoContent" class="field" />
+				<button class="create-btn" type="submit">Submit</button>
+			</form>
+			<ul id="list" class="list-container">
+				<!-- <li class="item">
+					<label for="status">
+						<input type="checkbox" id="status" />
+						<span class="checkbox-replacement"></span>
+					</label>
+					<div class="content">
+						<input type="text" value="Todo 1" readonly />
+					</div>
+					<div class="actions">
+						<button class="edit-btn btn">Edit</button>
+						<button class="delete-btn btn">Delete</button>
+					</div>
+				</li> -->
+			</ul>
+		</div>
+		<script src="./main.js"></script>
+	</body>
+</html>
